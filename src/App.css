@@ -1,0 +1,84 @@
+.App-Container {
+  width: 100%;
+  height: 100vh;
+}
+
+.Btn-Container {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Btn-Box {
+  width: 10vw;
+  height: 5vh;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+.Btn-Box:hover {
+  border-color: blue;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.Card-Container {
+  width: 100%;
+  height: 80vh;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.Cards {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Result {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card-Box {
+  width: 10vw;
+  height: 20vh;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.Card-Content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.img:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.04);
+  overflow: hidden;
+}
+
+.Result {
+  font-size: 2rem;
+}
+
+.Card-title{
+    font-size: 1.5rem;
+}
